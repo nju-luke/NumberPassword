@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">记忆训练</string>
+    <string name="numPassword">数字密码</string>
+    <string name="txt_quantity">请输入您想记忆数字的个数：</string>
+    <string name="txt1">请输入您想记忆数字的范围：</string>
+    <string name="remember_numbers">记数字</string>
+    <string name="conform">确定</string>
+</resources>
