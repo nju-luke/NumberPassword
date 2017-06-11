@@ -1,4 +1,4 @@
-package com.unionpay.numberpassword;
+package com.unionpay.numberpassword.RememberNumbers;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.unionpay.numberpassword.R;
 
 /**
  * Created by hzqb_luke on 01/05/2017.

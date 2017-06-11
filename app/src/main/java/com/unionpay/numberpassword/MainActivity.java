@@ -4,8 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
+
+import com.unionpay.numberpassword.NumberPassword.NumberPassword;
+import com.unionpay.numberpassword.RememberNumbers.RememberNumbers_main;
+
+import java.util.List;
 
 /**
  * Created by hzqb_luke on 30/04/2017.
@@ -13,6 +19,9 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button button1,button2;
+
+    private RecyclerView mRecyclerView;
+    private List<Integer> mDatas;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

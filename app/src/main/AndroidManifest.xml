@@ -7,18 +7,21 @@
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
+        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NumberPassword"/>
-        <activity android:name=".RememberNumbers_main"/>
-        <!--<activity android:name=".RememberNumbers"/>-->
-        <activity android:name=".RememberNumbers1"/>
+        <activity android:name=".NumberPassword.NumberPassword" />
+        <activity android:name=".RememberNumbers.RememberNumbers_main" />
+        <!-- <activity android:name=".RememberNumbers"/> -->
+        <activity android:name=".RememberNumbers.RememberNumbers1" />
+        <activity android:name=".RemberPoker.MainActivity"></activity>
+        <activity android:name=".zielony.materialrecents.RecentsActivity"/>
+
     </application>
 
 </manifest>

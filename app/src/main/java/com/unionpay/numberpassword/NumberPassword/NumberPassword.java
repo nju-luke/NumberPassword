@@ -1,10 +1,12 @@
-package com.unionpay.numberpassword;
+package com.unionpay.numberpassword.NumberPassword;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.unionpay.numberpassword.R;
 
 import java.io.BufferedReader;
 import java.io.File;
