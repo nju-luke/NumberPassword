@@ -23,18 +23,9 @@
     </facet>
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="2" platform="JVM 1.6" useProjectSettings="false">
-        <compilerSettings>
-          <option name="additionalArguments" value="-no-jdk" />
-        </compilerSettings>
+        <compilerSettings />
         <compilerArguments>
-          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/releaseUnitTest" />
-          <option name="classpath" value="$USER_HOME$/.android/build-cache/9579c5dac2e62dbb63460b621fe05fc4dc94c3cb/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/59f86008a3fc2c17d39f51e9ef61a010733ad9ea/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/cf3f5d18f4067d150e2cd25cb3dc61e32bf58772/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/99e7233df682b80337653e4c05fcdc670bc92463/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/fc3a91a102d4bba3568c5be8dfcbe958fb502ed5/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/e0df9e99e48a7ed2b4d28a65f09aae57eb1ec636/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/75f438ee1ef5e46daa54f3f6072c7d208c1076f6/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/4ca8ba9d5c4d314464797ad7684bb1f7edca589d/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/ec031482320e8724b5a4382bdc6fa59c19471477/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/fd0b9aa4898e063ebe2e9720fb2c445161223fc9/output/jars/classes.jar:/Users/hzqb_luke/.android/build-cache/70df4be2fb96a10991ff7cec8ca083f99050b1d1/output/jars/classes.jar:/Users/hzqb_luke/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar:/Users/hzqb_luke/.android/build-cache/49d303693f2afe70d9c1b01a7bc27e914d85735e/output/jars/classes.jar:/Users/hzqb_luke/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar:/Users/hzqb_luke/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar:/Users/hzqb_luke/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.1.2-4/e6a7403299b8f3126e3a1576c02e3f07ae5af6fa/kotlin-stdlib-jre7-1.1.2-4.jar:/Users/hzqb_luke/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.2-4/3f5f1498bdbb9611cb1413f794b3a3a5a6edef34/kotlin-stdlib-1.1.2-4.jar:/Users/hzqb_luke/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/hzqb_luke/Library/Android/sdk/platforms/android-25/android.jar" />
-          <option name="noStdlib" value="true" />
-          <option name="noReflect" value="true" />
-          <option name="moduleName" value="app_release" />
           <option name="jvmTarget" value="1.6" />
-          <option name="addCompilerBuiltIns" value="true" />
-          <option name="loadBuiltInsFromDependencies" value="true" />
           <option name="languageVersion" value="1.1" />
           <option name="apiVersion" value="1.1" />
           <option name="pluginClasspaths">
@@ -88,13 +79,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
@@ -102,6 +86,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />

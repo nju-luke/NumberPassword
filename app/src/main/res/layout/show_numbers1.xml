@@ -21,15 +21,17 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginBottom="50dp"
-        android:layout_weight="1"
+        android:layout_weight="0.12"
 
         android:orientation="horizontal">
+
+
 
         <Button
             android:id="@+id/button_show_pre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_blue_bright"
+            android:background="@drawable/shape"
             android:gravity="center"
             android:text="上一个" />
 
@@ -38,9 +40,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:background="@android:color/holo_blue_bright"
-
+            android:background="@drawable/shape"
             android:text="下一个" />
+
 
     </LinearLayout>
 

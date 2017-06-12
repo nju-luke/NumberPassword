@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/numPassword"
-        android:background="@android:color/holo_blue_light"
+        android:background="@drawable/shape"
         />
 
     <Button
@@ -21,11 +21,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/remember_numbers"
-        android:background="@android:color/holo_blue_light" />
+        android:background="@drawable/shape" />
 
     <Button
         android:id="@+id/button_rmPoker"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/shape"
         android:text="Button" />
 </LinearLayout>
