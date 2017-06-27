@@ -2,71 +2,72 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/bg2">
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
 
 
     <TextView
-        android:text="@string/txt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/txt1"
         android:textSize="18sp" />
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
 
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
             android:id="@+id/number_min"
-            android:layout_weight="1"
-            android:layout_marginLeft="10dp"
-            android:hint="最小值"
-            android:text="0"/>
-
-        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/number_max"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
+            android:ems="10"
+            android:hint="最小值"
+            android:inputType="number"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/number_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:ems="10"
             android:hint="最大值"
-            android:text="100"/>
+            android:inputType="number"
+            android:text="100" />
 
 
     </LinearLayout>
+
     <TextView
-        android:text="@string/txt_quantity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_quantity"
+        android:textSize="18sp" />
 
     <EditText
+        android:id="@+id/quantity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="记忆个数"
-        android:text="20"
-        android:id="@+id/quantity"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"/>
+        android:inputType="number"
+        android:text="20" />
 
     <Button
-        android:text="@string/conform"
-        android:gravity="center"
+        android:id="@+id/conform1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/conform1"
         android:layout_marginLeft="10dp"
-        android:background="@drawable/shape" />
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="@string/conform" />
 </LinearLayout>

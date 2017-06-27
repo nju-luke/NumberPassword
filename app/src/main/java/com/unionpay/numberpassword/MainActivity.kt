@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import com.unionpay.numberpassword.NumberPassword.NumberPassword
 import com.unionpay.numberpassword.RememberNumbers.RememberNumbers_main
-import com.unionpay.numberpassword.zielony.materialrecents.RecentsActivity
+import com.unionpay.numberpassword.RememberPoker.RememberPoker
 
 /**
  * Created by hzqb_luke on 30/04/2017.
@@ -26,6 +26,6 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener { startActivity(Intent(this@MainActivity, RememberNumbers_main::class.java)) }
 
         var button3 = findViewById(R.id.button_rmPoker) as Button
-        button3.setOnClickListener { startActivity(Intent(this@MainActivity, RecentsActivity::class.java)) }
+        button3.setOnClickListener { startActivity(Intent(this@MainActivity, RememberPoker::class.java)) }
     }
 }

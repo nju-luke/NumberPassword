@@ -21,8 +21,8 @@ class RememberNumbers1 : AppCompatActivity() {
     internal var quantity: Int = 0
     internal var numbers = ArrayList<Int>()
     internal var index: Int = 0
-    internal val TOAST_INFO1 = "记忆结束"
-    internal val TOAST_INFO2 = "已经到第一个数了"
+    internal var flag: Boolean = true
+    internal var toast:Toast? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,30 +41,42 @@ class RememberNumbers1 : AppCompatActivity() {
         var textView = findViewById(R.id.show_number1) as TextView
         textView.text = numbers[index].toString()
         val button = findViewById(R.id.button_show_next) as Button
+        val button1 = findViewById(R.id.button_show_pre) as Button
         button.setOnClickListener {
             if (index < quantity - 1) {
                 index++
                 textView.text = numbers[index].toString()
             } else {
-                val toast = Toast.makeText(applicationContext, TOAST_INFO1, Toast.LENGTH_LONG)
-                toast.setGravity(Gravity.CENTER, 0, 0)
-                toast.show()
+                mytoast("记忆结束")
+                flag = false
+                button1.text = "返回第一个"
             }
         }
-
-        val button1 = findViewById(R.id.button_show_pre) as Button
         button1.setOnClickListener {
-            if (index > 0) {
-                index--
+            if (flag) {
+                if (index > 0) {
+                    index--
+                    textView.text = numbers[index].toString()
+                } else {
+                    mytoast("已经到第一个了")
+                }
+            }else{
+                index=0
+                mytoast("已返回至第一个")
                 textView.text = numbers[index].toString()
-            } else {
-                val toast = Toast.makeText(applicationContext, TOAST_INFO2, Toast.LENGTH_LONG)
-                toast.setGravity(Gravity.CENTER, 0, 0)
-                toast.show()
             }
         }
 
 
+    }
+
+    fun mytoast(text:String){
+        if (toast != null)
+            (toast as Toast).cancel()
+
+        toast = Toast.makeText(applicationContext, text, Toast.LENGTH_SHORT)
+        toast!!.setGravity(Gravity.CENTER, 0, 0)
+        toast!!.show()
     }
 
     private fun getNumbers() {

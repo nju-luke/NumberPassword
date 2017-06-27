@@ -3,75 +3,156 @@
 
     <item
         is-multidex="false"
-        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_622951509549b6b95c2eb4bab923844f1414fdb3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_bcb83cb61929d12a1b9dab3e7ab2996db9c9426c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_98465fd10fcb9f649fb68d7ad9414ac00ccda3df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_b3f9da3bd01de26cbee26e851271a5c212784cfa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_2b3b7766e309a89cfecffc9d544afc0dd8d90712.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jar="/Users/hzqb_luke/.android/build-cache/fd0b9aa4898e063ebe2e9720fb2c445161223fc9/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_8a4b8f5942c9ad51f9c3cff6fda4aa0d48d068f1.jar" />
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_0c1e973e2cfad143d5ef348aac497cfad38b8864.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jar="/Users/hzqb_luke/.android/build-cache/70df4be2fb96a10991ff7cec8ca083f99050b1d1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_90b748d09f482188040c4a05c0b6221dcf6d06bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/cbc4afbe3c62b7faff02a20a4b4d7322452fdfe5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f254b7170da2b5db3edb125daa601d1b4a2eb902">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_2e4d649b3db9f77b1ca55a4423a046faa4e35785.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/99e7233df682b80337653e4c05fcdc670bc92463/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_b92dbd515e1961f370183b6191cccac1019d1d77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.1.2-4/e6a7403299b8f3126e3a1576c02e3f07ae5af6fa/kotlin-stdlib-jre7-1.1.2-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e6a7403299b8f3126e3a1576c02e3f07ae5af6fa">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/kotlin-stdlib-jre7-1.1.2-4_187dfe349b230fb1bd45f8a8cb6f93ef91f92994.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/cf3f5d18f4067d150e2cd25cb3dc61e32bf58772/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_e8dbbbd83addb03ef997fef0c303275ec98a7d4e.jar" />
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_385bb7e762a763da30bcd7dc3b6b63691cb49391.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jar="/Users/hzqb_luke/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/annotations-13.0_6d0ac14a3487c75c2f716f3cc90320c5dbe0d397.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4af946137183057b429e9c5062724c3e628496fa">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_278e50454d2fe698fa63ce9d3f58c2ec55fe161f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/glide-3.7.0_3069c575864851da703ac4ceb8bf217b1608e77d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/ec031482320e8724b5a4382bdc6fa59c19471477/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_c8fbe5b7ec88b2b3923460a4af5a658edf4a90c5.jar" />
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_a4569e94ee528c683fa8a7620a8b2fb204f2e50b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.3/b4b51d1925cdfda98fd861230c1ecb5855500129/baseLibrary-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/baseLibrary-2.2.3_ecdfe42d20aac0b881d058257e34e229bfb9a84a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/af2ac8a27cfdd9f75eb54715bc571b8bdb53189f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="025331ae4b69875e3e0182e8f15751050a205fcf">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_960d8ebe5ed98466a782d0ef1d93da2def799024.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/53b3391efd8a39727b94d75ac8997752d04dcbf9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_fc3afa22b9a3e84b3bc00802498274484465a62b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/75f438ee1ef5e46daa54f3f6072c7d208c1076f6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_1b86b593e754d1336c7dbdbe8f79f4b6366fb6f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/f95df65fb839a666839f9e4170045d4c6400ec80/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_ed91518b3adfe126b93fcc935659f9c78655eb73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/59f86008a3fc2c17d39f51e9ef61a010733ad9ea/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_54a85a426c784a1244ca836445902058aa39c330.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/fc3a91a102d4bba3568c5be8dfcbe958fb502ed5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_b6c28ff29b8fb4b74737273620735930e4d46180.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,12 +165,48 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jar="/Users/hzqb_luke/.android/build-cache/9579c5dac2e62dbb63460b621fe05fc4dc94c3cb/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_590d3a3c663fee7c793404ec68aeb8f47603632e.jar" />
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_eb64a47d95a2f1b167c77c1662938ca7edc91c53.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_716c55edc3f43753b2bf95b168e06ecc7776014c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.2-4/3f5f1498bdbb9611cb1413f794b3a3a5a6edef34/kotlin-stdlib-1.1.2-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3f5f1498bdbb9611cb1413f794b3a3a5a6edef34">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/kotlin-stdlib-1.1.2-4_ed7acc5ac7c7b01dab270aa369d7382ac1314aa6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/4ca8ba9d5c4d314464797ad7684bb1f7edca589d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_db826daf4c08c0b2a3fe8d842a0b8c40c07912ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hzqb_luke/.android/build-cache/e0df9e99e48a7ed2b4d28a65f09aae57eb1ec636/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/hzqb_luke/Desktop/Android/NumberPassword/app/build/intermediates/pre-dexed/debug/classes_1934c4ff42338607533298c966aad090ae86fdad.jar" />
     </item>
 
 </items>

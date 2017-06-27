@@ -5,4 +5,5 @@
     <string name="txt1">请输入您想记忆数字的范围：</string>
     <string name="remember_numbers">记数字</string>
     <string name="conform">确定</string>
+    <string name="start_timing">开始计时</string>
 </resources>

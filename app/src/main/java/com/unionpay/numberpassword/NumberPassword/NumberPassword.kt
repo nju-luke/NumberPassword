@@ -10,6 +10,7 @@ import java.util.*
 class NumberPassword : AppCompatActivity() {
 
     internal var number2obj: MutableMap<String, List<String>> = HashMap()
+    var keys = mutableListOf<String>()
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,6 +48,7 @@ class NumberPassword : AppCompatActivity() {
             var values = it.split("、")
             var key = values[0]
             var value = values.filter { values.indexOf(it) > 0 }
+            keys.add(key)
             number2obj[key] = value
         }
         println("Done!")
@@ -55,26 +57,27 @@ class NumberPassword : AppCompatActivity() {
     internal fun getPair(): List<String?> {
         val random = Random()
 
-        val key = random.nextInt(number2obj.size).toString()
+
+        val index = random.nextInt(number2obj.size)
+        val key = keys[index]
         val values = number2obj[key]
         val value = values?.get(random.nextInt(values.size))
-
 
         if (random.nextInt(2) == 0)
             return listOf(key, value)
         else
-            return listOf(key, value)
+            return listOf(value, key)
     }
 
-    internal fun addToMap(line: String) {
-        val items = line.split("、".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
-        val objs = ArrayList<String>()
-        if (items.size < 2)
-            return
-        for (i in 1..items.size - 1) {
-            objs.add(items[i])
-        }
-        number2obj.put(items[0], objs)
-    }
+//    internal fun addToMap(line: String) {
+//        val items = line.split("、".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+//        val objs = ArrayList<String>()
+//        if (items.size < 2)
+//            return
+//        for (i in 1..items.size - 1) {
+//            objs.add(items[i])
+//        }
+//        number2obj.put(items[0], objs)
+//    }
 
 }
